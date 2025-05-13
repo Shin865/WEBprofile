@@ -1,0 +1,173 @@
+:root {
+    --primary-color: #252734;
+    --secondary-color: #333646;
+    --ascent-color: #ff9100;
+    --text-color: #ffffff;
+}
+body {
+    background-color: var(--primary-color);
+    min-height: 900px;
+    font-family: 'ubuntu', sans-serif;
+    color: var(--text-color);
+}
+.ascent-color {
+    color: var(--ascent-color);
+}
+.nav-link.active {
+    color : var(--ascent-color) !important;
+    font-weight: 600;
+}
+
+#hero {
+    min-height: 100vh;
+}
+
+#hero h1 {
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+#hero h2 {
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.btn-custom1 {
+    background-color: var(--ascent-color);
+    color: var(--text-color);
+    text-align: center;
+    min-width: 150px;
+    height: 45px;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.btn-custom1:hover {
+    box-shadow: 0 0 5px rgba(255, 145, 0, 0.8);
+}
+
+.cv {
+    color: var(--text-color);
+    cursor: pointer;
+    font-size: 1.1rem;
+}
+
+.social-icons ion-icon {
+    color: var(--text-color);
+    font-size: 2rem;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+hr {
+    width: 40%;
+    height: 5px;
+    color: var(--ascent-color);
+    margin: 0 auto;
+    opacity: 100%;
+}
+
+#about {
+    min-height: 300px;
+    width: 100%;
+    background-color: var(--secondary-color);
+    padding-top: 80px;
+    padding-bottom: 80px;
+    margin-bottom: 80px;
+}
+
+#skills {
+    min-height: 600px;
+    width: 100%;
+    color: #fff;
+}
+
+#skills img {
+    width: 15%;
+    margin: 10px;
+}
+
+#skills .card {
+    background-color: var(--secondary-color);
+    height: 340px;
+    display: flex;
+}
+
+#skills .card:hover {
+    background-color: var(--ascent-color);
+    color: var(--text-color);
+}
+
+.skill-konten {
+    margin-top: 120px;
+}
+
+#sertifikat {
+    background-color: var(--secondary-color);
+    margin-top: -170px;
+    padding : 270px;
+    padding-bottom: 80px;
+}
+
+#sertifikat p, a {
+    color: var(--text-color) !important;
+    margin-left: 2px;
+}
+
+#sertifikat img {
+    width: 25%;
+    padding: 10px;
+}
+
+#portofolio .container {
+    padding: 80px 10px;
+}
+#portofolio img {
+    max-height: 500px;
+}
+
+footer img {
+    width: 80px;
+    height: 80px;
+    padding: 10px;
+}
+
+.social-icons-footer svg {
+    color: var(--text-color);
+    font-size: 2rem;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    #hero h1 {
+        font-size: 2rem;
+    }
+    #hero h2 {
+        font-size: 1.5rem;
+    }
+    .btn-custom1 {
+        min-width: 120px;
+        height: 40px;
+        font-size: 1rem;
+    }
+    .social-icons ion-icon {
+        font-size: 1.5rem;
+        margin-right: 10px;
+    }
+    #skills img {
+        width: 30%;
+    }
+    #skills .card {
+        height: 300px;
+        display: flex;
+        justify-content: space-around;
+
+    }
+    .skill-kontent {
+        flex-wrap: wrap;
+    }
+    
+    
+}
