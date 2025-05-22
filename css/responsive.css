@@ -14,7 +14,8 @@
 
 @media screen and (max-width: 768px) {
     #hero img {
-        width: 60%;
+        width: 50%;
+        height: auto;
     }
 
     .social-icons {
@@ -48,6 +49,9 @@
     }
     h1 {
         font-size: 2rem !important;
+    }
+    .btn-custom1 {
+       margin-bottom: 40px;
     }
     footer img {
         width: 60px;
