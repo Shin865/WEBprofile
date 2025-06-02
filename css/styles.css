@@ -19,7 +19,7 @@ body {
 }
 .nav-dark {
     background-color: var(--secondary-color) !important;
-    z-index: 1000;
+    z-index: 9999;
     transition: all 0.5s ease;
     position: sticky;
     top: 0;
